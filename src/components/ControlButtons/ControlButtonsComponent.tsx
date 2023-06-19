@@ -4,8 +4,8 @@ import {
   StyledRightArrow,
   StyledArrowBlock,
 } from "./styled";
-import right_arrow_icon from "../../assets/right_arrow.svg";
-import left_arrow_icon from "../../assets/left_arrow.svg";
+import right_arrow_icon from "@assets/right_arrow.svg";
+import left_arrow_icon from "@assets/left_arrow.svg";
 
 export const ControlButtons = () => {
   return (

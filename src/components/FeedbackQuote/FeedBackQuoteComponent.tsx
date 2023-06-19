@@ -3,7 +3,7 @@ import {
   StyledQuoteIcon,
   StyledFeedbackText,
 } from "./styled";
-import quote from "../../assets/quote.svg";
+import quote from "@assets/quote.svg";
 
 export const FeedBackQuoteComponent = () => {
   return (
