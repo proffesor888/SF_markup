@@ -20,6 +20,6 @@ export const StyledButton = styled.button`
   background-color: #f3741c;
   text-transform: uppercase;
   border-color: transparent;
-  color: #fff;
+  color: ${({ theme }) => theme.primary_white};
   margin-top: 20px;
 `;
