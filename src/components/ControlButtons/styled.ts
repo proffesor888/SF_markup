@@ -8,7 +8,7 @@ const StyledArrow = styled.img`
 export const StyledArrowBlock = styled.div`
   width: 55px;
   height: 55px;
-  background-color: #e97937;
+  background-color: ${({theme}) => theme.secondary_active_color};
   display: flex;
   justify-content: center;
   align-items: center;

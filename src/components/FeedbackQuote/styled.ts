@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const StyledFeedbackQuote = styled.div`
     display: flex;
     flex-direction: column;
-    background-color: #F9F9FA;
+    background-color: ${({theme}) => theme.main_background_color};
     padding: 70px 110px;
     max-width: 570px;
     width: 100%;
@@ -23,6 +23,6 @@ export const StyledFeedbackText = styled.text<{author?: boolean}>`
     text-align: left;
     & a:link, a:visited, a:visited:active {
         color: #000;
-        text-decoration-color: #F3741C
+        text-decoration-color: ${({theme}) => theme.main_active_color}
     }   
 `

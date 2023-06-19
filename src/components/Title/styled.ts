@@ -12,7 +12,7 @@ export const StyledSection = styled.section`
 export const StyledTestimonials = styled.text`
   font-size: 16px;
   line-height: 21px;
-  color: #f3741c;
+  color: ${props => props.theme.main_active_color};
 `;
 
 export const StyledTitle = styled.text`
