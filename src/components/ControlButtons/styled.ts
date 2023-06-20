@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { breakpoints } from "@styles/breakpoints/breakpoints";
 
 const StyledArrow = styled.img`
   width: 7px;
@@ -13,6 +14,10 @@ export const StyledArrowBlock = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  @media ${breakpoints.tabletL} {
+    width: 40px;
+    height: 40px;
+  }
 `;
 
 export const StyledControlButtons = styled.div`
@@ -20,7 +25,17 @@ export const StyledControlButtons = styled.div`
   display: flex;
   flex-direction: row;
   bottom: 0;
-  right: 0;
+  right: ${({ theme }) => `${theme.primary_horizontal_offset}`};
+  @media ${breakpoints.laptopL} {
+    right: ${({ theme }) => `${theme.secondary_horizontal_offset}`};
+  }
+  @media ${breakpoints.tabletL} {
+    right: ${({ theme }) => `${theme.primary_horizontal_offset}`};
+  }
+  @media ${breakpoints.mobileL} {
+    right: ${({ theme }) => `${theme.secondary_horizontal_offset}`};
+    top: 0;
+  }
 `;
 
 export const StyledLeftArrow = styled(StyledArrow)`

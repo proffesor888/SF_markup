@@ -1,15 +1,19 @@
 import { styled } from "styled-components";
+import { breakpoints } from "@styles/breakpoints/breakpoints";
 
 export const StyledLeaveFeedback = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media ${breakpoints.tablet} {
+    padding: ${({ theme }) => `0 ${theme.secondary_horizontal_offset}`};
+  }
 `;
 
-export const StyledLeaveFeedbackText = styled.text<{ isTitle?: boolean }>`
-  font-weight: ${(props) => (props.isTitle ? 700 : 400)};
-  font-size: ${(props) => (props.isTitle ? "52px" : "20px")};
-  line-height: ${(props) => (props.isTitle ? "67px" : "32px")};
+export const StyledLeaveFeedbackText = styled.p<{ $isTitle?: boolean }>`
+  font-weight: ${({$isTitle}) => ($isTitle ? 700 : 400)};
+  font-size: ${({$isTitle}) => ($isTitle ? "52px" : "20px")};
+  line-height: ${({$isTitle, theme}) => ($isTitle ? theme.line_height_extra_large : theme.line_height_large)};
   margin-bottom: 20px;
 `;
 

@@ -13,7 +13,8 @@
       "@hooks/*": ["./hooks/*"],
       "@ioc/*": ["./ioc/*"],
       "@pages/*": ["./pages/*"],
-      "@utils/*": ["./utils/*"]
+      "@utils/*": ["./utils/*"],
+      "@styles/*": ["./styles/*"],
     },
 
     /* Bundler mode */

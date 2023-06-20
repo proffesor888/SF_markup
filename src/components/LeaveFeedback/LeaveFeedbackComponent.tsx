@@ -7,7 +7,7 @@ import {
 export const LeaveFeedbackComponent = () => {
   return (
     <StyledLeaveFeedback>
-      <StyledLeaveFeedbackText isTitle>
+      <StyledLeaveFeedbackText $isTitle>
         Leave your feedback
       </StyledLeaveFeedbackText>
       <StyledLeaveFeedbackText>

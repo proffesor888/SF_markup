@@ -23,7 +23,7 @@ export const FeedBackQuoteComponent = () => {
       </StyledFeedbackText>
       <br />
       <br />
-      <StyledFeedbackText author>Wolfgang Männel</StyledFeedbackText>
+      <StyledFeedbackText $isAuthor>Wolfgang Männel</StyledFeedbackText>
       <StyledFeedbackText>
         Founder and Managing Director,{" "}
         <a href="https://www.google.com">Fotografen365</a>
