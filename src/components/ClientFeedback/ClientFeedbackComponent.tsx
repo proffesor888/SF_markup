@@ -1,7 +1,7 @@
 import { StyledFeedbackSection, StyledClientImage, StyledImageContainer } from "./styled";
 import { FeedBackQuoteComponent } from "@components/FeedbackQuote/FeedBackQuoteComponent";
 import { ControlButtons } from "@components/ControlButtons/ControlButtonsComponent";
-import client_photo from "@assets/client_photo.jpg";
+import client_photo from "@images/client_photo.jpg";
 
 export const ClientFeedbackComponent = () => {
   return (

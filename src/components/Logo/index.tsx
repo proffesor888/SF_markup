@@ -1,5 +1,5 @@
-import CompanyLogo from "@assets/company_logo.svg";
-import CompanyTitle from "@assets/company_title.svg";
+import CompanyLogo from "@images/company_logo.svg";
+import CompanyTitle from "@images/company_title.svg";
 import { StyledCompanyLogo, StyledCompanyTitle } from "./styled";
 
 export const Logo = () => {
