@@ -124,7 +124,7 @@ Error generating stack: `+o.message+`
     color: ${({theme:e})=>e.primary_black};
     text-decoration-color: ${({theme:e})=>e.main_active_color};
   }
-`,Bm="/assets/quote-9f963c90.svg",Vm=()=>$.jsxs(Am,{children:[$.jsx(Um,{src:Bm,alt:"quote_icon"}),$.jsxs(Yo,{children:["I have worked with a number of software developers before but none of them quite reached the level of professionalism, diligence and enthusiasm that I experienced with Vitaliy and his team. They are incredibly easy to work with and almost always find great programming solutions to our requirements. ",$.jsx("br",{}),$.jsx("br",{})," What I especially liked about the SoftFormance team is their passion and understanding for our project. It’s like working with friends. Friends that deliver on their promises. I have nothing but praise for the work of SoftFormance team and look forward to working with this agency in the future."]}),$.jsx("br",{}),$.jsx("br",{}),$.jsx(Yo,{$isAuthor:!0,children:"Wolfgang Männel"}),$.jsxs(Yo,{children:["Founder and Managing Director,"," ",$.jsx("a",{href:"https://www.google.com",children:"Fotografen365"})]})]}),ed=X.img`
+`,Bm="/SF_markup/assets/quote-9f963c90.svg",Vm=()=>$.jsxs(Am,{children:[$.jsx(Um,{src:Bm,alt:"quote_icon"}),$.jsxs(Yo,{children:["I have worked with a number of software developers before but none of them quite reached the level of professionalism, diligence and enthusiasm that I experienced with Vitaliy and his team. They are incredibly easy to work with and almost always find great programming solutions to our requirements. ",$.jsx("br",{}),$.jsx("br",{})," What I especially liked about the SoftFormance team is their passion and understanding for our project. It’s like working with friends. Friends that deliver on their promises. I have nothing but praise for the work of SoftFormance team and look forward to working with this agency in the future."]}),$.jsx("br",{}),$.jsx("br",{}),$.jsx(Yo,{$isAuthor:!0,children:"Wolfgang Männel"}),$.jsxs(Yo,{children:["Founder and Managing Director,"," ",$.jsx("a",{href:"https://www.google.com",children:"Fotografen365"})]})]}),ed=X.img`
   width: 7px;
   height: 14px;
 `,va=X.div`
@@ -157,7 +157,7 @@ Error generating stack: `+o.message+`
   }
 `,Hm=X(ed)`
   opacity: 70%;
-`,Qm=X(ed)``,Km="/assets/right_arrow-7bc3c3e7.svg",Ym="/assets/left_arrow-6c590d5a.svg",Gm=()=>$.jsxs(Wm,{children:[$.jsx(va,{children:$.jsx(Hm,{src:Ym})}),$.jsx(va,{children:$.jsx(Qm,{src:Km})})]}),Xm="/assets/client_photo-d0a41cb7.jpg",Zm=()=>$.jsxs(Fm,{children:[$.jsx(Vm,{}),$.jsx(Mm,{children:$.jsx(Dm,{src:Xm})}),$.jsx(Gm,{})]}),Jm=X.section`
+`,Qm=X(ed)``,Km="/SF_markup/assets/right_arrow-7bc3c3e7.svg",Ym="/SF_markup/assets/left_arrow-6c590d5a.svg",Gm=()=>$.jsxs(Wm,{children:[$.jsx(va,{children:$.jsx(Hm,{src:Ym})}),$.jsx(va,{children:$.jsx(Qm,{src:Km})})]}),Xm="/SF_markup/assets/client_photo-d0a41cb7.jpg",Zm=()=>$.jsxs(Fm,{children:[$.jsx(Vm,{}),$.jsx(Mm,{children:$.jsx(Dm,{src:Xm})}),$.jsx(Gm,{})]}),Jm=X.section`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +178,7 @@ Error generating stack: `+o.message+`
   border-color: transparent;
   color: ${({theme:e})=>e.primary_white};
   margin-top: 20px;
-`,bm=()=>$.jsxs(Jm,{children:[$.jsx(ya,{$isTitle:!0,children:"Leave your feedback"}),$.jsxs(ya,{children:["If you had a chance to work with us, please, leave your feedback ",$.jsx("br",{})," ","and we’ll happily add it to our testimonials page. Thank you!"]}),$.jsx(qm,{children:"leave your feedback"})]}),e0=()=>$.jsxs(Tm,{children:[$.jsx(Om,{}),$.jsx(Zm,{}),$.jsx(bm,{})]}),t0="/assets/company_logo-8443f2fe.svg",n0="/assets/company_title-6f97a519.svg",r0=X.img`
+`,bm=()=>$.jsxs(Jm,{children:[$.jsx(ya,{$isTitle:!0,children:"Leave your feedback"}),$.jsxs(ya,{children:["If you had a chance to work with us, please, leave your feedback ",$.jsx("br",{})," ","and we’ll happily add it to our testimonials page. Thank you!"]}),$.jsx(qm,{children:"leave your feedback"})]}),e0=()=>$.jsxs(Tm,{children:[$.jsx(Om,{}),$.jsx(Zm,{}),$.jsx(bm,{})]}),t0="/SF_markup/assets/company_logo-8443f2fe.svg",n0="/SF_markup/assets/company_title-6f97a519.svg",r0=X.img`
     width: 31.3px;
     height: 31.6px;
     margin-bottom: 11.7px;
